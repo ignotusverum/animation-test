@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Animation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6iJ-wb-FnO" customClass="testView" customModule="Animation" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLt-Yb-WCT">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="66" id="2HV-rA-nIJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <state key="normal" title="Run Test">
+                                            <color key="titleColor" red="0.93725490199999995" green="0.59215686270000001" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="2HV-rA-nIJ"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="2HV-rA-nIJ"/>
+                                            </mask>
+                                        </variation>
+                                        <connections>
+                                            <action selector="testButtonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0WC-vp-NhC"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="GLt-Yb-WCT" firstAttribute="leading" secondItem="6iJ-wb-FnO" secondAttribute="leading" id="4ai-1N-8i8"/>
+                                    <constraint firstAttribute="bottom" secondItem="GLt-Yb-WCT" secondAttribute="bottom" id="ALy-a4-ce7"/>
+                                    <constraint firstAttribute="trailing" secondItem="GLt-Yb-WCT" secondAttribute="trailing" id="ddU-pv-WPn"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="GLt-Yb-WCT"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="4ai-1N-8i8"/>
+                                        <exclude reference="ALy-a4-ce7"/>
+                                        <exclude reference="ddU-pv-WPn"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="GLt-Yb-WCT"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="4ai-1N-8i8"/>
+                                        <include reference="ALy-a4-ce7"/>
+                                        <include reference="ddU-pv-WPn"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6iJ-wb-FnO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="i6u-fO-CdK"/>
+                            <constraint firstItem="6iJ-wb-FnO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="iOw-1M-qNj"/>
+                            <constraint firstItem="6iJ-wb-FnO" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="n6h-FU-rma"/>
+                            <constraint firstAttribute="trailing" secondItem="6iJ-wb-FnO" secondAttribute="trailing" id="oiV-mh-1Zu"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="6iJ-wb-FnO"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="i6u-fO-CdK"/>
+                                <exclude reference="iOw-1M-qNj"/>
+                                <exclude reference="n6h-FU-rma"/>
+                                <exclude reference="oiV-mh-1Zu"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="6iJ-wb-FnO"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="i6u-fO-CdK"/>
+                                <include reference="iOw-1M-qNj"/>
+                                <include reference="n6h-FU-rma"/>
+                                <include reference="oiV-mh-1Zu"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="testViewtest" destination="6iJ-wb-FnO" id="sbp-6L-p63"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="435" y="433.5"/>
+        </scene>
+    </scenes>
+</document>
