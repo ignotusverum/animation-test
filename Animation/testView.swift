@@ -25,10 +25,12 @@ class testView: UIView {
         
         linePath.moveToPoint(CGPoint(x: 0.5, y: 0.5))
         linePath.addLineToPoint(CGPoint(x: 256.5, y: 171.5))
-        lineLayer.lineWidth = 1.0
+        lineLayer.lineWidth = 5.0
         lineLayer.path = linePath.CGPath
         lineLayer.strokeColor = UIColor.magentaColor().CGColor
         lineLayer.fillColor = UIColor.magentaColor().CGColor
+        
+        lineLayer.contentsCenter = self.bounds
         
         self.layer.addSublayer(lineLayer)
         

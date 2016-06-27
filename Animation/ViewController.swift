@@ -14,18 +14,11 @@ class ViewController: UIViewController {
 
     @IBAction func testButtonpressed(sender: AnyObject) {
         
-        let rotationAngle = CGFloat(M_PI)
+        let radiantWave = RCGRotationView.init(containerView: self.view, numberOfLines: 64, linesColor: UIColor.whiteColor(), linesWidth: 1.0, linesHeight: 150.0)
         
-        for line in self.testViewtest.linesArray! {
-            
-        }
+        radiantWave.show()
         
-        let springAnimation = CABasicAnimation(keyPath: "transform.rotation")
-        springAnimation.byValue = Float(M_PI)
-        springAnimation.duration = 4.0
-        springAnimation.repeatCount = Float.infinity
-        
-        self.testViewtest.animationLayer?.addAnimation(springAnimation, forKey: "testAnimation")
+        self.view.sendSubviewToBack(radiantWave)
     }
 }
 

@@ -12,7 +12,7 @@
 		F58ACB291D1C70EB007CBFEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58ACB271D1C70EB007CBFEF /* Main.storyboard */; };
 		F58ACB2B1D1C70EB007CBFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58ACB2A1D1C70EB007CBFEF /* Assets.xcassets */; };
 		F58ACB2E1D1C70EB007CBFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58ACB2C1D1C70EB007CBFEF /* LaunchScreen.storyboard */; };
-		F58ACB361D1C8BDA007CBFEF /* LogoSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ACB351D1C8BDA007CBFEF /* LogoSpinner.swift */; };
+		F58ACB361D1C8BDA007CBFEF /* UIGraphicsGetCurrentContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ACB351D1C8BDA007CBFEF /* UIGraphicsGetCurrentContext.swift */; };
 		F58ACB381D1C8C71007CBFEF /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ACB371D1C8C71007CBFEF /* testView.swift */; };
 		F58ACB3A1D1D8ED7007CBFEF /* RCGLineCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ACB391D1D8ED7007CBFEF /* RCGLineCALayer.swift */; };
 		F58ACB3C1D1D90C4007CBFEF /* RCGRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ACB3B1D1D90C4007CBFEF /* RCGRotationView.swift */; };
@@ -26,7 +26,7 @@
 		F58ACB2A1D1C70EB007CBFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F58ACB2D1D1C70EB007CBFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F58ACB2F1D1C70EB007CBFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F58ACB351D1C8BDA007CBFEF /* LogoSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoSpinner.swift; sourceTree = "<group>"; };
+		F58ACB351D1C8BDA007CBFEF /* UIGraphicsGetCurrentContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGraphicsGetCurrentContext.swift; sourceTree = "<group>"; };
 		F58ACB371D1C8C71007CBFEF /* testView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
 		F58ACB391D1D8ED7007CBFEF /* RCGLineCALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCGLineCALayer.swift; sourceTree = "<group>"; };
 		F58ACB3B1D1D90C4007CBFEF /* RCGRotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCGRotationView.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			children = (
 				F58ACB231D1C70EB007CBFEF /* AppDelegate.swift */,
 				F58ACB251D1C70EB007CBFEF /* ViewController.swift */,
-				F58ACB351D1C8BDA007CBFEF /* LogoSpinner.swift */,
+				F58ACB351D1C8BDA007CBFEF /* UIGraphicsGetCurrentContext.swift */,
 				F58ACB271D1C70EB007CBFEF /* Main.storyboard */,
 				F58ACB2A1D1C70EB007CBFEF /* Assets.xcassets */,
 				F58ACB2C1D1C70EB007CBFEF /* LaunchScreen.storyboard */,
@@ -152,7 +152,7 @@
 				F58ACB381D1C8C71007CBFEF /* testView.swift in Sources */,
 				F58ACB261D1C70EB007CBFEF /* ViewController.swift in Sources */,
 				F58ACB241D1C70EB007CBFEF /* AppDelegate.swift in Sources */,
-				F58ACB361D1C8BDA007CBFEF /* LogoSpinner.swift in Sources */,
+				F58ACB361D1C8BDA007CBFEF /* UIGraphicsGetCurrentContext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
